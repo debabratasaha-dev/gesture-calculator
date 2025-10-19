@@ -56,40 +56,38 @@ Gesture Calculator/
 - Operations: plus, minus, multiply, divide, equal, clear
 ### Gestures
 <!-- place inside your README.md -->
-<div style="display:flex; flex-wrap:wrap; gap:12px; align-items:flex-start;">
-  <figure style="margin:0; text-align:center;">
-    <img src="Gesture_pictures/0.png" alt="gesture1">
-    <figcaption style="font-size:12px; margin-top:6px;"><strong>0</strong></figcaption>
-  </figure>
-
-  <figure style="margin:0; text-align:center;">
-    <img src="Gesture_pictures/plus.png" alt="gesture2">
-    <figcaption style="font-size:12px; margin-top:6px;"><strong>+ (Plus)</strong></figcaption>
-  </figure>
-
-  <figure style="margin:0; text-align:center;">
-    <img src="Gesture_pictures/minus.png" alt="gesture3">
-    <figcaption style="font-size:12px; margin-top:6px;">- (Minus)</figcaption>
-  </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="Gesture_pictures/multiply.jpg" alt="gesture3">
-    <figcaption style="font-size:12px; margin-top:6px;">* (Multiply)</figcaption>
-  </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="Gesture_pictures/divide.png" alt="gesture3">
-    <figcaption style="font-size:12px; margin-top:6px;">/ (Divide)</figcaption>
-  </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="Gesture_pictures/equal.png" alt="gesture3">
-    <figcaption style="font-size:12px; margin-top:6px;">= (Equal)</figcaption>
-  </figure>
-  <figure style="margin:0; text-align:center;">
-    <img src="Gesture_pictures/clear.jpg" alt="gesture3">
-    <figcaption style="font-size:12px; margin-top:6px;">Clear</figcaption>
-  </figure>
-
-  <!-- add more figures as needed -->
-</div>
+<table>
+  <tr>
+    <td align="center">
+      <img src="Gesture_pictures/0.png" alt="0" height="100"><br>
+      <strong>0</strong>
+    </td>
+    <td align="center">
+      <img src="Gesture_pictures/plus.png" alt="plus" height="100"><br>
+      <strong>+ (Plus)</strong>
+    </td>
+    <td align="center">
+      <img src="Gesture_pictures/minus.png" alt="minus" height="100"><br>
+      <strong>- (Minus)</strong>
+    </td>
+    <td align="center">
+      <img src="Gesture_pictures/multiply.jpg" alt="multiply" height="100"><br>
+      <strong>* (Multiply)</strong>
+    </td>
+    <td align="center">
+      <img src="Gesture_pictures/divide.png" alt="divide" height="100"><br>
+      <strong>/ (Divide)</strong>
+    </td>
+    <td align="center">
+      <img src="Gesture_pictures/equal.png" alt="equal" height="100"><br>
+      <strong>= (Equal)</strong>
+    </td>
+    <td align="center">
+      <img src="Gesture_pictures/clear.jpg" alt="clear" height="100"><br>
+      <strong>Clear</strong>
+    </td>
+  </tr>
+</table>
 
 ## Troubleshooting
 - **Python Version:** Use Python 3.8–3.12. Mediapipe is not available for Python 3.13+.
@@ -99,4 +97,5 @@ Gesture Calculator/
 ## Acknowledgements
 - [Mediapipe](https://ai.google.dev/edge/mediapipe/solutions/guide) for hand tracking and gesture recognition
 - OpenCV for image and video processing
+
 ---
